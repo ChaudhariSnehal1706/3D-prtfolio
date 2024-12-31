@@ -17,12 +17,18 @@ import {
   docker,
   meta,
   starbucks,
+  stratagem,
+  GreenPaede,
+  SRLOGO,
   tesla,
   shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  stratagem_LG,
+  Clr_LG,
+  SRLOGO_LG,
 } from "../assets";
 
 export const navLinks = [
@@ -54,7 +60,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Web Design",
     icon: creator,
   },
 ];
@@ -72,10 +78,10 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
+  // {
+  //   name: "TypeScript",
+  //   icon: typescript,
+  // },
   {
     name: "React JS",
     icon: reactjs,
@@ -96,10 +102,10 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
   {
     name: "git",
     icon: git,
@@ -108,17 +114,17 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
 ];
 
 const experiences = [
   {
     title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    company_name: "stratagem",
+    icon: stratagem,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
     points: [
@@ -128,23 +134,23 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  // {
+  //   title: "React Native Developer",
+  //   company_name: "Tesla",
+  //   icon: tesla,
+  //   iconBg: "#E6DEDD",
+  //   date: "Jan 2021 - Feb 2022",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
   {
     title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    company_name: "SR MUZIK",
+    icon: SRLOGO,
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
     points: [
@@ -156,8 +162,8 @@ const experiences = [
   },
   {
     title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    company_name: "GreenPaede",
+    icon: GreenPaede,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
@@ -198,9 +204,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "SR Muzik",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A web-based platform that allows users to explore, stream, and create playlists from a vast music library. Enjoy personalized recommendations and a seamless music experience, anytime, anywhere.",
     tags: [
       {
         name: "react",
@@ -215,13 +221,13 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: SRLOGO_LG,
+    source_code_link: "https://srmuzik.vercel.app/",
   },
   {
-    name: "Job IT",
+    name: "Color Studio",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "An India-based wedding and portrait photography studio specializing in capturing beautiful and timeless moments. The website highlights their portfolio, services, and easy booking options with a modern and elegant design.",
     tags: [
       {
         name: "react",
@@ -236,13 +242,13 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: Clr_LG,
+    source_code_link: "https://color-studio-seven.vercel.app/",
   },
   {
-    name: "Trip Guide",
+    name: "stratagem",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A global sourcing platform connecting businesses to high-quality suppliers across Asia and Mexico, helping them succeed in competitive markets.",
     tags: [
       {
         name: "nextjs",
@@ -257,8 +263,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: stratagem_LG,
+    source_code_link: "https://stratagemholdings.com/",
   },
 ];
 
